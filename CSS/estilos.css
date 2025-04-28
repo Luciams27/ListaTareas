@@ -1,0 +1,96 @@
+
+.container {
+    width: 100%;
+    max-width: 1000px;
+    background-color: rgb(250, 235, 239);
+    margin: auto;
+    border-radius: 5px;
+    padding: 3rem;
+    box-shadow: 0 2px 5 px rgba(0, 0, 0, 0.1);
+    margin-top: 3rem;
+}
+
+h1{
+    text-align: center;
+    color: rgb(90, 0, 32);
+
+}
+
+input[type="text"]{
+    width: 90%;
+    padding: 0.7rem;
+    color: rgb(137, 0, 48);
+    margin-left: 4%;
+    background-color: rgb(221, 176, 189);
+}
+
+.placeholder {
+    color: pink;
+}
+
+button{
+    padding: 8px 15px;
+    background-color: rgb(177, 79, 105);
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    width: 30%;
+    margin-left: 35%;
+}
+
+button:hover{
+    background-color: rgb(127, 71, 100);
+}
+
+ul{
+    list-style-type: none;
+    padding: 0;
+    background-color: rgb(250, 235, 239);
+}
+
+li{
+    padding: 1rem;
+    border-bottom: 1px solid #ddd;
+    display: flex;
+    align-items: center;
+    background-color: rgb(221, 176, 189);
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    justify-content: space-between;
+
+}
+
+.eliminar{
+    background-color: rgb(60, 47, 68);
+    width: 10%;
+    
+}
+
+.eliminar.hover{
+    background-color: rgb(54, 28, 28);
+}
+
+select{
+    width: 20%;
+    padding: 0.7rem;
+    color: rgb(137, 0, 48);
+    margin-left: 4%;
+    background-color: rgb(221, 176, 189);
+    margin-top: 1rem;
+    font-weight: bolder;
+}
+
+label{
+    width: 20%;
+    padding: 0.7rem;
+    color: rgb(137, 0, 48);
+    margin-left: 4%;
+    margin-top: 1rem;
+}
+
+.leyendaColor{
+    font-size: smaller;
+    margin-left: 4%;
+}
+
